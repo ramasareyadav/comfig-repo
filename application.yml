@@ -1,0 +1,13 @@
+ globle:
+   massege: welocme to globle Microservice Enviroments::
+logging:
+  level:
+    root: INFO
+management:
+ endpoints:
+  web:
+   exposure:
+     include: health,info,refresh
+endpoint:
+  heath:
+    show-details: always
