@@ -1,1 +1,18 @@
+global:
+  message: welcome to customer dev environments
 
+server:
+  port: 8082
+
+message: this is from prod
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/customer_prod
+    username: root
+    password: ""
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
