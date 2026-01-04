@@ -1,0 +1,14 @@
+globle:
+  massage: welcome to customer dev enviromets
+server:
+  port: 8082
+massage: this is from dev
+spring :
+  datasource:
+   url : jdbc:mysql://localhost:3306/customer_dev
+   username: root
+   password: 
+jpa: 
+ hibernate:
+    ddl-auto: update
+  show-sql: true
