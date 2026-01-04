@@ -1,5 +1,5 @@
  globle:
-   massege: welocme to globle Microservice Enviroments::
+   massege: welocme to globle Microservice Enviroments:
 logging:
   level:
     root: INFO
